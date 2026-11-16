@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.css',
 })
 export class Home {
-  name: string = 'Zaid';
+  name: string = 'Ismail';
   tasks: any[] = [
     { id: 0, title: 'Apprendre Angular', dueDate: '2024-06-01', completed: true },
     { id: 1, title: 'Apprendre React', dueDate: '2024-06-02', completed: false },
@@ -18,7 +18,7 @@ export class Home {
   disabled: boolean = false;
 
   rename(): void {
-    this.name = 'DEROUICHE Zaid';
+    this.name = 'Makrouf Ismail';
   }
   deleteName(): void {
     this.name = '';
